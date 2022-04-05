@@ -75,7 +75,7 @@ module CombinePDF
     # the info attribute is a Hash that sets the Info data for the PDF.
     # use, for example:
     #   pdf.info[:Title] = "title"
-    attr_reader :info
+    attr_accessor :info
     # set/get the PDF version of the file (1.1-1.7) - shuold be type Float.
     attr_accessor :version
     # the viewer_preferences attribute is a Hash that sets the ViewerPreferences data for the PDF.
